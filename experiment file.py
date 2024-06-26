@@ -1,2 +1,1 @@
-print("kovidh /n "*10 )
-      
+print("kovidh /n "*20 )
