@@ -1,1 +1,1 @@
-print("kovidh /n "*1000000009999 )
+print("kovidh /n "*200)
