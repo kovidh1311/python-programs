@@ -1,1 +1,1 @@
-print("kovidh /n "*200)
+print("kovidh /n "*300)
