@@ -1,4 +1,13 @@
-weight = input("what is your weight in kgs?")
+weight = input("enter your weight ")
+type1 = input("kg or lbs? ")
+if type1 == 'kg' :
+    weight = float(weight) * 2.205
+elif type1 == "lbs" :
+    weight = float(weight) * 0.45
+else:
+    print("please enter 'lbs' or 'kg'")
 
-weight2 = weight * 2.20462
-print(weight2,"lbs")
+print(weight)
+
+
+
