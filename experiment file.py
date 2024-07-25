@@ -1,1 +1,0 @@
-print("kovidh /n "*400)
