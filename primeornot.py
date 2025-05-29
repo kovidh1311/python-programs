@@ -1,15 +1,17 @@
-x = 32
-def isprime(x):
-    y = x**0.5
-    y = int(y)
-    y +=2
-    if x % 2==0:
+
+def isprime(xx):
+    yy = int(xx**0.5)+1
+    if xx == 1:
         return False
-    for i in range (1,y,+2):
-        if x%i==0:
+    if xx % 2==0:
+        if xx == 2:
+            pass
+        else:
+            return False
+    for i in range (1,yy,+2):
+        if xx%i==0:
             if i == 1:
                 pass
             else:
                 return False
     return True
-print(isprime(x)) 
