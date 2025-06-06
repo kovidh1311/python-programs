@@ -1,0 +1,17 @@
+
+
+from suiii import *
+def mydreanmfunc(n):
+    if len(n)==1:
+        return n
+    else:
+    
+        yy =[]
+        for i in range(0,len(n)):
+            yy.append(skibide(n[i],mydreanmfunc(x(i+1,n))))
+
+        return yy
+    
+
+print(mydreanmfunc(['a','b','c','d','e','f']))
+        
