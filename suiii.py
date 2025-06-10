@@ -35,3 +35,9 @@ def x(num,lis):
 
     
     
+def tt(n,a):
+    while a !=0:
+        n.pop(0)
+        a-=1
+    n.pop(0)
+    return n
